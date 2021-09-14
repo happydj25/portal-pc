@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>포털 아이디 비밀번호 찾기</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+    <main>
+
+        <div class="choice_btn">
+            <button class="on" title="아이디 찾기">아이디 찾기</button>
+            <button title="비밀번호 찾기">비밀번호 찾기</button>
+        </div>    
+
+
+        <!-- 아이디 찾기 -->
+        <div class="id_find">
+            <div class ="pop_tit">
+                <h2>아이디 찾기</h2>
+                <p>인증 방식을 선택해 주세요.</p>
+            </div>
+            <button class="ch_pon" title="본인명의 휴대폰으로 인증하기"></button>
+            <button class="ch_ipin" title="발급받은 아이핀으로 인증하기"></button>
+        </div>
+
+        <div class="id_find">
+            <div class ="pop_tit">
+                <h2>아이디 찾기</h2>
+                <p>회원님의 정보와 일치하는 아이디 입니다.</p>
+            </div>        
+            <table class="pop_id_find">
+                <tr>
+                    <th>아이디</th>
+                    <th>가입일</th>
+                    <th>회원상태</th>
+                </tr>
+                <tr class="normal on">
+                    <td>
+                        <label class="check_radio on">
+                            <input type="checkbox">
+                             slkjfw
+                        </label>
+                    </td>
+                    <td>2020.04.28</td>
+                    <td>정상</td>
+                </tr>
+                <tr class="out">
+                    <td>
+                        <label class="check_radio">
+                            <input type="checkbox" disabled>
+                            aspoj
+                        </label>
+                    </td>
+                    <td>2020.04.28</td>
+                    <td>탈퇴</td>
+                </tr>
+                <tr class="stop">
+                    <td>
+                        <label class="check_radio">
+                            <input type="checkbox" disabled>
+                            wope666
+                        </label>
+                    </td>
+                    <td>2020.04.28</td>
+                    <td>정지</td>
+                </tr>
+            </table>
+            <div class="btn_wrap">
+                <button class="btn1" title="로그인">로그인</button>
+                <button class="btn2" title="비밀번호 재설정">비밀번호 재설정</button>
+            </div>
+        </div>
+
+
+
+        <!-- 비밀번호 찾기 -->
+        <div class="pw_find">
+            <div class ="pop_tit">
+                <h2>비밀번호 찾기</h2>
+                <p>비밀번호 찾기를 위한 아이디를 입력해주세요.</p>
+            </div>
+            <div class="input_id">
+                <input type="text" placeholder="가입된 아이디">
+            </div>
+            <div class="btn_wrap pw_btn">
+                <button class="btn2" title="다음">다음</button>
+            </div>
+        </div>
+        
+        <div class="pw_find">
+            <div class ="pop_tit">
+                <h2>비밀번호 찾기</h2>
+                <p>새로운 비밀번호를 재설정해주세요.</p>
+            </div>
+            <table class="pop_pw_find">
+                <tr>
+                    <th>아이디</th>
+                    <td class="btxt">qweqwe</td>
+                </tr>
+                <tr>
+                    <th>새 비밀번호</th>
+                    <td>
+                        <input type="password" placeholder="8~12글자 영문/숫자/특수문자 혼합 사용가능">
+                    </td>
+                </tr>
+                <tr>
+                    <th>새 비밀번호 확인</th>
+                    <td>
+                        <input type="password" placeholder="비밀번호를 한번 더 입력해 주세요.">
+                    </td>
+                </tr>
+            </table>
+            <div class="btn_wrap pw_btn">
+                <button class="btn2" title="다음">다음</button>
+            </div>
+        </div>
+        
+        
+        <div class="pw_find">
+            <div class ="pop_tit">
+                <h2>비밀번호 찾기</h2>
+                <p>비밀번호가 변경되었습니다.</p>
+            </div>
+            <div class="ch_msg" title="새로운 비밀번호로 로그인하여 서비스를 이용해주세요.">
+            </div>
+            <div class="btn_wrap pw_btn">
+                <button class="btn2" title="로그인">로그인</button>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/spolive-0.0.1.js"></script>
+</html>
